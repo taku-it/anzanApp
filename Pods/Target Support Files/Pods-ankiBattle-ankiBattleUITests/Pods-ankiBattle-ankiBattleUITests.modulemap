@@ -1,0 +1,6 @@
+framework module Pods_ankiBattle_ankiBattleUITests {
+  umbrella header "Pods-ankiBattle-ankiBattleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

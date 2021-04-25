@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA27BC993B034DB6177F550 /* Pods_ankiBattle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73EB6215AFC11DF527A776D7 /* Pods_ankiBattle.framework */; };
+		A8196EDD2496699400116A06 /* SetteiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8196EDC2496699400116A06 /* SetteiViewController.swift */; };
+		A8342F6C248C7CAF00C5171A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8342F6B248C7CAF00C5171A /* AppDelegate.swift */; };
+		A8342F6E248C7CAF00C5171A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8342F6D248C7CAF00C5171A /* SceneDelegate.swift */; };
+		A8342F70248C7CAF00C5171A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8342F6F248C7CAF00C5171A /* ViewController.swift */; };
+		A8342F73248C7CAF00C5171A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8342F71248C7CAF00C5171A /* Main.storyboard */; };
+		A8342F75248C7CB100C5171A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8342F74248C7CB100C5171A /* Assets.xcassets */; };
+		A8342F78248C7CB100C5171A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8342F76248C7CB100C5171A /* LaunchScreen.storyboard */; };
+		A8342F8E248C7CB100C5171A /* ankiBattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8342F8D248C7CB100C5171A /* ankiBattleUITests.swift */; };
+		A8342F9C248C7D1500C5171A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8342F9B248C7D1500C5171A /* GameViewController.swift */; };
+		A851C5442557982D00397A3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A851C5432557982C00397A3A /* GoogleService-Info.plist */; };
+		A85B1B29249EFA2300D09EC9 /* water-drop1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A85B1B27249EFA2300D09EC9 /* water-drop1.mp3 */; };
+		A85B1B2A249EFA2300D09EC9 /* cursor4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A85B1B28249EFA2300D09EC9 /* cursor4.mp3 */; };
+		A88358FC24C4179400436F3F /* ankiBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8342F82248C7CB100C5171A /* ankiBattleTests.swift */; };
+		A883590424DE700E00436F3F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883590324DE700E00436F3F /* ResultViewController.swift */; };
+		A883590624E0DF8000436F3F /* selectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883590524E0DF8000436F3F /* selectLevelViewController.swift */; };
+		B8CC5A1B910C92AF04742D0E /* Pods_ankiBattleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753CA23D018E2AC6A7628CC7 /* Pods_ankiBattleTests.framework */; };
+		E0EFBE81D4691E9084BB4D3B /* Pods_ankiBattle_ankiBattleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B47B4742F375A4FFAF77AB /* Pods_ankiBattle_ankiBattleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8342F7F248C7CB100C5171A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8342F60248C7CAF00C5171A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8342F67248C7CAF00C5171A;
+			remoteInfo = ankiBattle;
+		};
+		A8342F8A248C7CB100C5171A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8342F60248C7CAF00C5171A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8342F67248C7CAF00C5171A;
+			remoteInfo = ankiBattle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		308BAF09C5E20C68F058F8E2 /* Pods-ankiBattle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ankiBattle.release.xcconfig"; path = "Target Support Files/Pods-ankiBattle/Pods-ankiBattle.release.xcconfig"; sourceTree = "<group>"; };
+		37D34B333F87F2F50A9C4082 /* Pods-ankiBattle-ankiBattleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ankiBattle-ankiBattleUITests.debug.xcconfig"; path = "Target Support Files/Pods-ankiBattle-ankiBattleUITests/Pods-ankiBattle-ankiBattleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		477D888F5203E598369D36DB /* Pods-ankiBattleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ankiBattleTests.debug.xcconfig"; path = "Target Support Files/Pods-ankiBattleTests/Pods-ankiBattleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73EB6215AFC11DF527A776D7 /* Pods_ankiBattle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ankiBattle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		753CA23D018E2AC6A7628CC7 /* Pods_ankiBattleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ankiBattleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2075E4721973D80C508F63E /* Pods-ankiBattleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ankiBattleTests.release.xcconfig"; path = "Target Support Files/Pods-ankiBattleTests/Pods-ankiBattleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2C2EAEF6F862559FC2097F2 /* Pods-ankiBattle-ankiBattleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ankiBattle-ankiBattleUITests.release.xcconfig"; path = "Target Support Files/Pods-ankiBattle-ankiBattleUITests/Pods-ankiBattle-ankiBattleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8196EDC2496699400116A06 /* SetteiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetteiViewController.swift; sourceTree = "<group>"; };
+		A8342F68248C7CAF00C5171A /* anzannBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anzannBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8342F6B248C7CAF00C5171A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8342F6D248C7CAF00C5171A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8342F6F248C7CAF00C5171A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8342F72248C7CAF00C5171A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8342F74248C7CB100C5171A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8342F77248C7CB100C5171A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8342F79248C7CB100C5171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8342F7E248C7CB100C5171A /* ankiBattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ankiBattleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8342F82248C7CB100C5171A /* ankiBattleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ankiBattleTests.swift; sourceTree = "<group>"; };
+		A8342F84248C7CB100C5171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8342F89248C7CB100C5171A /* ankiBattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ankiBattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8342F8D248C7CB100C5171A /* ankiBattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ankiBattleUITests.swift; sourceTree = "<group>"; };
+		A8342F8F248C7CB100C5171A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8342F9B248C7D1500C5171A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A851C5432557982C00397A3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A85B1B27249EFA2300D09EC9 /* water-drop1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "water-drop1.mp3"; sourceTree = "<group>"; };
+		A85B1B28249EFA2300D09EC9 /* cursor4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cursor4.mp3; sourceTree = "<group>"; };
+		A883590324DE700E00436F3F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		A883590524E0DF8000436F3F /* selectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectLevelViewController.swift; sourceTree = "<group>"; };
+		B4B47B4742F375A4FFAF77AB /* Pods_ankiBattle_ankiBattleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ankiBattle_ankiBattleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2A8C14470194EAD24FA47F /* Pods-ankiBattle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ankiBattle.debug.xcconfig"; path = "Target Support Files/Pods-ankiBattle/Pods-ankiBattle.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8342F65248C7CAF00C5171A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA27BC993B034DB6177F550 /* Pods_ankiBattle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8342F7B248C7CB100C5171A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CC5A1B910C92AF04742D0E /* Pods_ankiBattleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8342F86248C7CB100C5171A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EFBE81D4691E9084BB4D3B /* Pods_ankiBattle_ankiBattleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4117FE53EDDE9B76F2FA7055 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8C14470194EAD24FA47F /* Pods-ankiBattle.debug.xcconfig */,
+				308BAF09C5E20C68F058F8E2 /* Pods-ankiBattle.release.xcconfig */,
+				37D34B333F87F2F50A9C4082 /* Pods-ankiBattle-ankiBattleUITests.debug.xcconfig */,
+				A2C2EAEF6F862559FC2097F2 /* Pods-ankiBattle-ankiBattleUITests.release.xcconfig */,
+				477D888F5203E598369D36DB /* Pods-ankiBattleTests.debug.xcconfig */,
+				A2075E4721973D80C508F63E /* Pods-ankiBattleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A628560163D5AFF6367084BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73EB6215AFC11DF527A776D7 /* Pods_ankiBattle.framework */,
+				B4B47B4742F375A4FFAF77AB /* Pods_ankiBattle_ankiBattleUITests.framework */,
+				753CA23D018E2AC6A7628CC7 /* Pods_ankiBattleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8342F5F248C7CAF00C5171A = {
+			isa = PBXGroup;
+			children = (
+				A8342F6A248C7CAF00C5171A /* ankiBattle */,
+				A8342F81248C7CB100C5171A /* ankiBattleTests */,
+				A8342F8C248C7CB100C5171A /* ankiBattleUITests */,
+				A8342F69248C7CAF00C5171A /* Products */,
+				4117FE53EDDE9B76F2FA7055 /* Pods */,
+				A628560163D5AFF6367084BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8342F69248C7CAF00C5171A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8342F68248C7CAF00C5171A /* anzannBattle.app */,
+				A8342F7E248C7CB100C5171A /* ankiBattleTests.xctest */,
+				A8342F89248C7CB100C5171A /* ankiBattleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8342F6A248C7CAF00C5171A /* ankiBattle */ = {
+			isa = PBXGroup;
+			children = (
+				A851C5432557982C00397A3A /* GoogleService-Info.plist */,
+				A85B1B26249EFA2300D09EC9 /* 効果音素材 */,
+				A8342F6B248C7CAF00C5171A /* AppDelegate.swift */,
+				A8342F6D248C7CAF00C5171A /* SceneDelegate.swift */,
+				A8342F6F248C7CAF00C5171A /* ViewController.swift */,
+				A883590524E0DF8000436F3F /* selectLevelViewController.swift */,
+				A8342F9B248C7D1500C5171A /* GameViewController.swift */,
+				A883590324DE700E00436F3F /* ResultViewController.swift */,
+				A8196EDC2496699400116A06 /* SetteiViewController.swift */,
+				A8342F71248C7CAF00C5171A /* Main.storyboard */,
+				A8342F74248C7CB100C5171A /* Assets.xcassets */,
+				A8342F76248C7CB100C5171A /* LaunchScreen.storyboard */,
+				A8342F79248C7CB100C5171A /* Info.plist */,
+			);
+			path = ankiBattle;
+			sourceTree = "<group>";
+		};
+		A8342F81248C7CB100C5171A /* ankiBattleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8342F84248C7CB100C5171A /* Info.plist */,
+			);
+			path = ankiBattleTests;
+			sourceTree = "<group>";
+		};
+		A8342F8C248C7CB100C5171A /* ankiBattleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8342F82248C7CB100C5171A /* ankiBattleTests.swift */,
+				A8342F8D248C7CB100C5171A /* ankiBattleUITests.swift */,
+				A8342F8F248C7CB100C5171A /* Info.plist */,
+			);
+			path = ankiBattleUITests;
+			sourceTree = "<group>";
+		};
+		A85B1B26249EFA2300D09EC9 /* 効果音素材 */ = {
+			isa = PBXGroup;
+			children = (
+				A85B1B27249EFA2300D09EC9 /* water-drop1.mp3 */,
+				A85B1B28249EFA2300D09EC9 /* cursor4.mp3 */,
+			);
+			path = "効果音素材";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8342F67248C7CAF00C5171A /* ankiBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8342F92248C7CB100C5171A /* Build configuration list for PBXNativeTarget "ankiBattle" */;
+			buildPhases = (
+				C3D0F143F0F6E64BB0E43FCE /* [CP] Check Pods Manifest.lock */,
+				A8342F64248C7CAF00C5171A /* Sources */,
+				A8342F65248C7CAF00C5171A /* Frameworks */,
+				A8342F66248C7CAF00C5171A /* Resources */,
+				30709D2CB0F0A40F2C98923C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ankiBattle;
+			productName = ankiBattle;
+			productReference = A8342F68248C7CAF00C5171A /* anzannBattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8342F7D248C7CB100C5171A /* ankiBattleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8342F95248C7CB100C5171A /* Build configuration list for PBXNativeTarget "ankiBattleTests" */;
+			buildPhases = (
+				1E82ABC12D788395DEDE5076 /* [CP] Check Pods Manifest.lock */,
+				A8342F7A248C7CB100C5171A /* Sources */,
+				A8342F7B248C7CB100C5171A /* Frameworks */,
+				A8342F7C248C7CB100C5171A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8342F80248C7CB100C5171A /* PBXTargetDependency */,
+			);
+			name = ankiBattleTests;
+			productName = ankiBattleTests;
+			productReference = A8342F7E248C7CB100C5171A /* ankiBattleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8342F88248C7CB100C5171A /* ankiBattleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8342F98248C7CB100C5171A /* Build configuration list for PBXNativeTarget "ankiBattleUITests" */;
+			buildPhases = (
+				050358B716A388CD3632A8C7 /* [CP] Check Pods Manifest.lock */,
+				A8342F85248C7CB100C5171A /* Sources */,
+				A8342F86248C7CB100C5171A /* Frameworks */,
+				A8342F87248C7CB100C5171A /* Resources */,
+				05A1A20B8FF47177DADC2686 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8342F8B248C7CB100C5171A /* PBXTargetDependency */,
+			);
+			name = ankiBattleUITests;
+			productName = ankiBattleUITests;
+			productReference = A8342F89248C7CB100C5171A /* ankiBattleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8342F60248C7CAF00C5171A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					A8342F67248C7CAF00C5171A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					A8342F7D248C7CB100C5171A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A8342F67248C7CAF00C5171A;
+					};
+					A8342F88248C7CB100C5171A = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = A8342F67248C7CAF00C5171A;
+					};
+				};
+			};
+			buildConfigurationList = A8342F63248C7CAF00C5171A /* Build configuration list for PBXProject "ankiBattle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8342F5F248C7CAF00C5171A;
+			productRefGroup = A8342F69248C7CAF00C5171A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8342F67248C7CAF00C5171A /* ankiBattle */,
+				A8342F7D248C7CB100C5171A /* ankiBattleTests */,
+				A8342F88248C7CB100C5171A /* ankiBattleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8342F66248C7CAF00C5171A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85B1B2A249EFA2300D09EC9 /* cursor4.mp3 in Resources */,
+				A8342F78248C7CB100C5171A /* LaunchScreen.storyboard in Resources */,
+				A8342F75248C7CB100C5171A /* Assets.xcassets in Resources */,
+				A8342F73248C7CAF00C5171A /* Main.storyboard in Resources */,
+				A85B1B29249EFA2300D09EC9 /* water-drop1.mp3 in Resources */,
+				A851C5442557982D00397A3A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8342F7C248C7CB100C5171A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8342F87248C7CB100C5171A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		050358B716A388CD3632A8C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ankiBattle-ankiBattleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05A1A20B8FF47177DADC2686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ankiBattle-ankiBattleUITests/Pods-ankiBattle-ankiBattleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ankiBattle-ankiBattleUITests/Pods-ankiBattle-ankiBattleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ankiBattle-ankiBattleUITests/Pods-ankiBattle-ankiBattleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E82ABC12D788395DEDE5076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ankiBattleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30709D2CB0F0A40F2C98923C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ankiBattle/Pods-ankiBattle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ankiBattle/Pods-ankiBattle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ankiBattle/Pods-ankiBattle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D0F143F0F6E64BB0E43FCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ankiBattle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8342F64248C7CAF00C5171A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8342F9C248C7D1500C5171A /* GameViewController.swift in Sources */,
+				A8342F70248C7CAF00C5171A /* ViewController.swift in Sources */,
+				A8342F6C248C7CAF00C5171A /* AppDelegate.swift in Sources */,
+				A8342F6E248C7CAF00C5171A /* SceneDelegate.swift in Sources */,
+				A8196EDD2496699400116A06 /* SetteiViewController.swift in Sources */,
+				A883590624E0DF8000436F3F /* selectLevelViewController.swift in Sources */,
+				A883590424DE700E00436F3F /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8342F7A248C7CB100C5171A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8342F85248C7CB100C5171A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88358FC24C4179400436F3F /* ankiBattleTests.swift in Sources */,
+				A8342F8E248C7CB100C5171A /* ankiBattleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8342F80248C7CB100C5171A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8342F67248C7CAF00C5171A /* ankiBattle */;
+			targetProxy = A8342F7F248C7CB100C5171A /* PBXContainerItemProxy */;
+		};
+		A8342F8B248C7CB100C5171A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8342F67248C7CAF00C5171A /* ankiBattle */;
+			targetProxy = A8342F8A248C7CB100C5171A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8342F71248C7CAF00C5171A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8342F72248C7CAF00C5171A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8342F76248C7CB100C5171A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8342F77248C7CB100C5171A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8342F90248C7CB100C5171A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8342F91248C7CB100C5171A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8342F93248C7CB100C5171A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2A8C14470194EAD24FA47F /* Pods-ankiBattle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z27GRUV329;
+				INFOPLIST_FILE = ankiBattle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Takuto0124.anzannBattle;
+				PRODUCT_NAME = anzannBattle;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8342F94248C7CB100C5171A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308BAF09C5E20C68F058F8E2 /* Pods-ankiBattle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z27GRUV329;
+				INFOPLIST_FILE = ankiBattle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Takuto0124.anzannBattle;
+				PRODUCT_NAME = anzannBattle;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8342F96248C7CB100C5171A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477D888F5203E598369D36DB /* Pods-ankiBattleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89FRX9XWFY;
+				INFOPLIST_FILE = ankiBattleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Takuto0124.ankiBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ankiBattle.app/ankiBattle";
+			};
+			name = Debug;
+		};
+		A8342F97248C7CB100C5171A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2075E4721973D80C508F63E /* Pods-ankiBattleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89FRX9XWFY;
+				INFOPLIST_FILE = ankiBattleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Takuto0124.ankiBattleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ankiBattle.app/ankiBattle";
+			};
+			name = Release;
+		};
+		A8342F99248C7CB100C5171A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D34B333F87F2F50A9C4082 /* Pods-ankiBattle-ankiBattleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89FRX9XWFY;
+				INFOPLIST_FILE = ankiBattleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Takuto0124.ankiBattleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ankiBattle;
+			};
+			name = Debug;
+		};
+		A8342F9A248C7CB100C5171A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C2EAEF6F862559FC2097F2 /* Pods-ankiBattle-ankiBattleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89FRX9XWFY;
+				INFOPLIST_FILE = ankiBattleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Takuto0124.ankiBattleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ankiBattle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8342F63248C7CAF00C5171A /* Build configuration list for PBXProject "ankiBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8342F90248C7CB100C5171A /* Debug */,
+				A8342F91248C7CB100C5171A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8342F92248C7CB100C5171A /* Build configuration list for PBXNativeTarget "ankiBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8342F93248C7CB100C5171A /* Debug */,
+				A8342F94248C7CB100C5171A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8342F95248C7CB100C5171A /* Build configuration list for PBXNativeTarget "ankiBattleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8342F96248C7CB100C5171A /* Debug */,
+				A8342F97248C7CB100C5171A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8342F98248C7CB100C5171A /* Build configuration list for PBXNativeTarget "ankiBattleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8342F99248C7CB100C5171A /* Debug */,
+				A8342F9A248C7CB100C5171A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8342F60248C7CAF00C5171A /* Project object */;
+}
